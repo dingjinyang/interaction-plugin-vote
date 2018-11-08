@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.wrapper {
+    height: 30px;
+    background-color: black;
+}
+.content {
+    width: 1000px;
+    height: 30px;
+    margin: 0 auto;
+    background-color: blue;
+}
+img {
+    width: 100px;
+    height: 100px;
+}
+span {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    
+}

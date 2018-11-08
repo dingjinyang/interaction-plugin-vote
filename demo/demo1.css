@@ -1,0 +1,25 @@
+.wrapper {
+    width: 300px;
+    height: 30px;
+    padding: 10px 10px;
+    font-size: 30px;
+    line-height: 30px;
+    background-color: wheat;
+    color: rgba(255, 255, 255, 0.5);
+}
+.wrapper::before {
+    content: '';
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    line-height: 20px;
+    background-color: black;
+    background-size: 100% 100%;
+    background-image: url('D:/xmt/interaction-weapp/icons/set.png');
+}
+.wrapper::after {
+    content: '>';
+    float: right;
+    display: block;
+}

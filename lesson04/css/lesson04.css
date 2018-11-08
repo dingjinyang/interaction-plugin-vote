@@ -1,0 +1,32 @@
+div {
+    height: 50px;
+    border: 1px solid black;
+    text-align: center; /* 对齐方式*/
+    line-height: 50px;
+}
+.text {
+    height: 200px;
+    border: 1px solid black;
+    text-align: left; /* 对齐方式*/
+    text-indent: 2em;
+    line-height: 2em;
+
+    /* 1em = 1 font-size = 16px */
+}
+span {
+    text-decoration: line-through; /*中划线*/
+    cursor: pointer; /* 鼠标样式*/
+}
+.baidu {
+    text-decoration: underline; /* 下划线*/
+    color: rgb(0, 0, 238); /*超链接颜色*/
+}
+/* 伪类选择器 */
+.blog:hover {
+    color: #ffffff;
+    text-decoration: none;
+    background-color: #ff4400;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 20px;
+}
